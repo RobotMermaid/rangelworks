@@ -1,0 +1,38 @@
+{
+  "name": "rangelworks.com",
+  "version": "0.1.0",
+  "description": "Rangelworks long awaited website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ws -d www 8888"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/elvezpablo/rangelworks.git"
+  },
+  "keywords": [
+    "website",
+    "rangelworks",
+    "design",
+    "progreamming",
+    "creative",
+    "madness"
+  ],
+  "author": "Rangelworks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elvezpablo/rangelworks/issues"
+  },
+  "homepage": "https://github.com/elvezpablo/rangelworks",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jade": "^0.14.1",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-ftp-deploy": "^0.1.3",
+    "local-web-server": "^0.5.22"
+  },
+  "devDependencies": {
+    "grunt-contrib-jade": "^0.14.1"
+  }
+}

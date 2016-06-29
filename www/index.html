@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Rangelworks - Supernatural web development.">
+    <title>Rangelworks - legendary web development</title>
+    <meta name="description" content="Team of coders with super powers in Berkeley Ca.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link href='https://fonts.googleapis.com/css?family=Carter+One|Roboto:100,100italic,,200,300,300italic,500,700,900italic'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- TODO fix the icon file -->
+    <!--<link rel="shortcut icon" href="favicon.ico">-->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+
+</head>
+
+
+<body>
+<a name="home"></a>
+<div class="section header">
+    <div class="top">
+        <a href="#home" class="logo">
+            <svg version="1.1" id="Logo"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="623px" height="78px" viewBox="-2 -0.75 623 78" enable-background="new -2 -0.75 623 78" xml:space="preserve">
+        <path id="smallWing" class="kirk" fill="#777B84" d="M31.674-0.997c-1.292,0.089,2.26,13.047,5.84,19.707
+            c-1.472,6.837-1.163,7.127,2.691,11.064c-0.767,6.324-0.265,6.295,4.2,7.861c-3.795,17.622,17.768,9.024,13.333-3.994
+            C53.765,20.621,35.952-1.292,31.674-0.997z"/>
+        <path id="bigWing" class="kirk" fill="#A5AAB7" d="M58.332,37.778C50.978,23.138,8.891,3.772-1.48,5.977
+            C-4.605,6.641,7.016,20.449,16.121,26.99c-1.97,8.726-1.283,8.959,7.139,12.285c-0.749,7.879,0.227,7.671,9.039,8.023
+            C26.889,69.847,65.685,52.42,58.332,37.778z"/>
+        <path id="r_3_" class="kirk" fill="#A5AAB7" d="M92.236,56.931c0.215,0.788,1.002,1.432,1.862,1.432h6.444l-3.151,12.316H87.224
+            c-2.506,0-4.941-2.004-5.514-4.368l-3.079-12.746l-8.593,4.297l-3.294,12.816H53.999L67.46,17.834h36.304
+            c3.366,0,5.442,2.649,4.583,5.872l-3.366,12.889c-0.716,2.865-2.721,5.228-5.084,6.373l-9.81,4.869L92.236,56.931z M73.978,42.466
+            l17.399-8.736c1.433-0.715,1.934-1.575,2.148-2.291c0.286-0.93-0.501-1.36-1.647-1.36h-14.75L73.978,42.466z"/>
+        <path id="a_1_" class="redshirt" fill="#A5AAB7" d="M126.607,30.079c-1.432,0-2.292,1.002-2.578,2.148l-1.289,5.084h-12.889l3.938-15.109
+            c0.645-2.363,3.151-4.368,5.729-4.368h32.652c3.365,0,5.371,2.649,4.583,5.872l-10.956,42.605c-0.573,2.364-3.151,4.368-5.729,4.368
+            H107.13c-3.366,0-5.442-2.65-4.583-5.8l3.151-11.885c0.644-2.363,2.721-5.156,5.227-6.229l28.929-12.746
+            c1.647-0.716,2.578-1.432,2.578-2.579c0-0.859-0.645-1.36-1.575-1.36L126.607,30.079L126.607,30.079z M135.271,47.551l-15.896,7.017
+            c-1.647,0.715-2.578,1.36-2.578,2.506c0,0.859,0.716,1.289,1.647,1.289h14.464c1.146,0,2.291-0.93,2.578-2.004l1.934-7.232
+            C137.849,47.407,136.775,46.906,135.271,47.551z"/>
+        <path id="n_1_"  class="redshirt" fill="#A5AAB7" d="M196.064,17.834h12.889l-13.534,52.845H179.81l-7.59-31.578l-8.092,31.578h-12.817l13.605-52.845
+            h14.607l8.02,33.725L196.064,17.834z"/>
+        <path id="g_1_"class="redshirt" fill="#A5AAB7" d="M255.711,30.079h-28.284c-1.146,0-2.292,1.074-2.578,2.148L218.548,56.5
+            c-0.287,1.074,0.429,1.862,1.576,1.862h13.533c1.217,0,2.363-0.93,2.65-2.004l1.503-5.943h-10.025l3.151-12.317h22.843
+            l-7.232,28.212c-0.573,2.364-3.15,4.368-5.657,4.368h-32.724c-3.365,0-5.298-2.578-4.51-5.8l10.955-42.675
+            c0.573-2.363,3.079-4.368,5.585-4.368h38.667L255.711,30.079z"/>
+        <path id="e_1_"  class="redshirt" fill="#A5AAB7" d="M282.708,58.362c1.503,0,2.363-0.859,2.649-2.004l1.36-5.227h12.746l-3.938,15.179
+            c-0.644,2.363-3.079,4.368-5.585,4.368h-32.652c-3.366,0-5.441-2.434-4.583-5.8l10.956-42.676c0.572-2.363,3.078-4.368,5.584-4.368
+            h32.938c3.366,0,5.442,2.506,4.583,5.872l-3.007,11.815c-0.645,2.506-2.793,5.228-5.227,6.301l-29,12.746
+            c-1.647,0.715-2.578,1.432-2.578,2.506c0,0.86,0.715,1.289,1.646,1.289L282.708,58.362L282.708,58.362z M274.115,40.962
+            l15.897-6.946c1.576-0.716,2.506-1.432,2.506-2.578c0-0.86-0.572-1.36-1.646-1.36h-14.393c-1.146,0-2.363,1.003-2.648,2.148
+            l-1.791,7.231C271.609,41.105,272.468,41.679,274.115,40.962z"/>
+        <path id="l_1_"  class="redshirt" fill="#A5AAB7" d="M336.556,70.679h-29.859c-3.366,0-5.299-2.434-4.439-5.8l11.957-47.043h12.889L317.08,56.501
+            c-0.287,1.074,0.501,1.862,1.574,1.862h21.052L336.556,70.679z"/>
+        <path id="w_1_"  class="redshirt" fill="#A5AAB7" d="M367.704,70.679h-20.909c-3.365,0-5.371-2.434-4.512-5.8l11.959-47.043h12.889l-9.955,38.666
+            c-0.287,1.074,0.358,1.862,1.433,1.862h9.452c1.217,0,2.364-0.93,2.65-2.004l9.954-38.524h12.745l-9.954,38.666
+            c-0.286,1.074,0.429,1.862,1.576,1.862h9.379c1.146,0,2.435-0.859,2.722-2.004l9.811-38.524h12.746L407.302,66.31
+            c-0.571,2.363-3.15,4.368-5.657,4.368h-21.839c-2.649,0-4.583-0.859-5.728-2.219C372.502,69.82,370.354,70.679,367.704,70.679z"/>
+        <path id="o_1_"  class="redshirt" fill="#A5AAB7" d="M456.925,66.31c-0.572,2.363-3.078,4.368-5.584,4.368h-32.795c-3.366,0-5.299-2.434-4.44-5.8
+            l10.885-42.676c0.572-2.363,3.151-4.368,5.656-4.368h32.652c3.367,0,5.371,2.649,4.583,5.872L456.925,66.31z M428.927,56.5
+            c-0.287,1.074,0.501,1.862,1.575,1.862h13.605c1.146,0,2.291-0.93,2.578-2.004l6.301-24.346c0.287-1.074-0.357-1.934-1.432-1.934
+            h-13.677c-1.217,0-2.363,1.074-2.649,2.148L428.927,56.5z"/>
+        <path id="r_2_"  class="redshirt" fill="#A5AAB7" d="M500.749,56.931c0.215,0.788,1.003,1.432,1.862,1.432h6.444l-3.15,12.316h-10.167
+            c-2.506,0-4.941-2.004-5.514-4.368l-3.078-12.746l-8.592,4.297l-3.293,12.816h-12.747l13.462-52.844h36.303
+            c3.365,0,5.442,2.649,4.583,5.872l-3.366,12.889c-0.716,2.865-2.723,5.228-5.085,6.373l-9.809,4.869L500.749,56.931z
+             M482.488,42.466l17.401-8.736c1.432-0.715,1.934-1.575,2.148-2.291c0.285-0.93-0.502-1.36-1.647-1.36h-14.751L482.488,42.466z"/>
+        <path id="k_1_"  class="redshirt" fill="#A5AAB7" d="M548.509,31.726c0.788-0.358,1.503-1.36,1.719-2.22l3.007-11.671h12.747l-4.297,16.827
+            c-0.715,2.936-2.721,5.299-5.227,6.516l-9.452,4.726l2.649,11.028c0.214,0.788,1.002,1.432,1.79,1.432h5.299l-3.151,12.317h-9.023
+            c-2.507,0-4.942-2.005-5.514-4.368l-3.509-14.68l-8.879,4.44l-3.722,14.607h-12.817l13.605-52.845h12.746l-5.872,22.771
+            L548.509,31.726z"/>
+        <path id="s_1_"  class="redshirt" fill="#A5AAB7" d="M557.317,70.679l3.221-12.316h28.428c1.145,0,2.004-0.788,2.219-1.503
+            c0.286-0.93,0.072-1.646-1.074-2.435L569.49,40.676c-2.077-1.359-3.222-4.51-2.65-6.873l2.936-11.6
+            c0.572-2.363,3.079-4.368,5.584-4.368h32.795c3.366,0,5.441,2.721,4.582,5.872L609.016,38.1h-12.889l1.646-6.086
+            c0.287-1.074-0.358-1.934-1.503-1.934h-13.677c-1.146,0-2.004,0.43-2.291,1.576s0.144,2.005,1.289,2.721l20.48,13.533
+            c2.078,1.36,3.222,4.511,2.649,6.874l-2.935,11.529c-0.573,2.363-3.151,4.367-5.729,4.367L557.317,70.679L557.317,70.679z"/>
+
+</svg>
+        </a>
+    </div>
+    <div class="containerhead">
+        <div class="row">
+             <div class="bfg">
+                    <div class="gun">
+                        <img class="raygun" src="img/raygunblu.png"/>
+                    </div>
+                    <div class="laser">
+                        <div class="plasma"></div>
+                    </div>
+             </div>
+
+
+            <div class="target">
+                <div class="contain-zap">
+                    <div class="zap">
+                        <svg version="1.1" class="stars" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+								         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="336px" height="441px"
+								         viewBox="0 0 336 441" enable-background="new 0 0 336 441" xml:space="preserve">
+								      	<polygon id="Star1" sketch:type="MSShapeGroup" fill="#83FF95" stroke="#e1ccff" stroke-width="4" points="131.688,230.062 0.097,247.164  134.102,144.774 54.692,0.029 186.673,106.08 276.223,31.127 257.82,138.422 335.775,214.409 228.045,230.062 190.473,440.777 ">
+								      	</polygon>
+							      	</svg>
+							     	<svg version="1.1" class="stars" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+								        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="456px" height="561px"
+								        viewBox="0 0 456 561" enable-background="new 0 0 456 561" xml:space="preserve">
+								      	<polygon id="Star" fill="#649cff"  stroke="#83FF95"  stroke-width="4" points="283.771,345.161 219.893,560.824 165.508,343.084 5.724,417.593 124.752,283.424
+								        0.5,211.826 123.419,164.219 109.523,0.422 233.092,141.881 341.547,52.793 305.363,225.064 455.802,187.855 336.031,263.568
+								        438.535,348.066 "/>
+								    </svg>
+						        	<svg version="1.1" class="stars" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+								         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="305px" height="307px"
+								         viewBox="0 0 305 307" enable-background="new 0 0 305 307" xml:space="preserve">
+								      	<path id="stars" sketch:type="MSShapeGroup" fill="#2ff8f8" d="M102.435,159.939l29.784,123.955
+								        l25.766-119.975l120.566-33.057l-112.912-12.479L125.168,17l-20.442,94.802L19,145.986L102.435,159.939z"/>
+							      	</svg>
+
+							        <svg version="1.1" class="stars" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+								         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="497px"
+								         viewBox="0 0 512 497" enable-background="new 0 0 512 497" xml:space="preserve">
+							      		<polygon id="Star" sketch:type="MSShapeGroup" fill="#649cff" points="279.373,333.801
+								        267.116,446.674 226.597,311.565 121.067,472 164.001,269.088 21,269.088 170.151,190.444 65.228,58.394 195.799,147.986 221,20
+								        267.116,155.339 330.129,20 338.802,122.833 495.404,80.04 374.256,205.567 465,235.059 330.129,279.357 427.556,394.03 ">
+								      </polygon>
+							      	</svg>
+                        <span class="cover">ZAP!</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- target -->
+        </div>
+        <!-- column -->
+    </div>
+    <!-- row -->
+</div>
+
+
+<div class="button">
+
+
+    <div class="circle"></div>
+    <div class="circle1"></div>
+
+    <div class="innerCircle"></div>
+    <div class="inner"></div>
+    <a href="mailto:ondinerangel@gmail.com?Subject=COMMUNICATION%20CHANNEL%20NOW%20OPEN%20please%20write%20your%20message" target="_top">
+    <div class="innerMost"></div>
+    </a>
+</div>
+
+<div class="section values">
+    <h4 class="hero-header">Legendary web development</h4>
+
+    <div class="container">
+        <div class="row">
+            <div class="twelve column">
+                <p>
+                    <a href="#about-us">We</a> are a team of designers, coders and storytellers in the Bay Area poised
+                    and ready to work on your projects. We have developed everything from responsive emails to
+                    complex apps for top tier companies. We and are always looking for new partners so give
+                    us a call or email and lets get working...
+                    <br>
+                    <a href="#contact-us">-RangelWorks</a>
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="section what-we-do">
+        <div class="container">
+            <div class="row">
+                <div class="one-third column">
+                    <a href="#code"><h3 class="capabilities">Code</h3></a>
+                </div>
+                <div class="one-third column">
+                    <a href="#create"><h3 class="capabilities">Create</h3></a>
+                </div>
+                <div class="one-third column">
+                    <a href="#contact"> <h3 class="capabilities">Contact</h3></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section portfolio portfolio-green">
+    <a name="code"></a>
+    <div class="works">
+        <ul class="list meta">
+            <li>Tweetkit</li>
+            <li>Twitter</li>
+            <li><a href="http://tweetkit.co/#/" class="example">tweetkit.co</a></li>
+        </ul>
+        <ul class="list technologies">
+            <li>AngularJS</li>
+            <li>Grunt</li>
+            <li>AWS</li>
+            <li>LittleBits API</li>
+            <li>Node/NPM</li>
+            <li>AWS</li>
+        </ul>
+        <p>Working with LittleBits and <a href="http://labour-ny.com/" target="_blank">labour-ny</a>
+        we were tasked with rebranding and streamlining the WiFi configuration
+        process for the
+        <a href="http://www.littlebits.cc" target="_blank">LittleBits</a> cloudBit.
+        We created a
+        custom Wifi login client with Angular and Tweet mention watcher using Amazon
+        AWS and some
+        choice NodeJS.</p>
+
+        <img src="img/twitterbird1Sml.png" class="webproject ">
+    </div>
+    <div class="works">
+        <ul class="list meta">
+            <li>Web emails</li>
+            <li>CircleUp</li>
+        </ul>
+        <ul class="list technologies">
+            <li>Jade</li>
+            <li>Litmus</li>
+        </ul>
+        <p>CircleUp needed responsive email templates for their fundraising platform. We
+            quickly employed the excellent tools on Litmus to develop a series of
+            internal and external hybrid emails.</p>
+        <img src="img/circleUp.png" class="webproject circleup">
+    </div>
+</div>
+
+<div class="section portfolio portfolio-lightblue">
+    <div class="works">
+        <ul class="list meta">
+            <li>Own The Moment</li>
+            <li>Twitter</li>
+            <li><a href="https://twitter.twimg.com/ownthemoment" class="example">twitter.twimg.com/ownthemoment</a></li>
+        </ul>
+        <ul class="list technologies">
+            <li>AngularJS</li>
+            <li>Grunt</li>
+            <li>AWS</li>
+            <li>Node/NPM</li>
+            <li>Eloqua/Salesforce</li>
+            <li>SASS</li>
+        </ul>
+        <p>A calendar application built into Salesforce & Eloqua <a href="https://blog.twitter.com/2014/how-to-market-in-the-moment-on-twitter-au">
+            blog post on Twitter about it</a>. Built using Eloqua API, node modules and
+            grunt tasks to enable <a href="https://twitter.twimg.com/OwnTheMoment_JP" target="_blank">globalization</a> of calendar for
+            use by marketing teams.</p>
+        <img src="img/twittercal1Sml.png" class="webproject">
+    </div>
+</div>
+
+<div class="section portfolio portfolio-darkblue">
+    <div class="works">
+        <ul class="list meta">
+            <li>E-Commerce</li>
+            <li>Kawaihae Cards</li>
+            <li><a href="http://shop.kawaihaecards.com" class="example">shop.kawaihaecards.com</a></li>
+        </ul>
+        <ul class="list technologies">
+            <li>Shoppify</li>
+            <li>Sass</li>
+        </ul>
+        <p>Kawaihae Cards is a small card company on the Big Island of Hawaii. They
+        needed branding and an online store they could manage. Using Shoppify and
+        Sass we were able to quickly deploy an self managed online store in a matter
+        of weeks.</p>
+
+        <img src="img/kawaihaeSml.png" class="webproject">
+    </div>
+</div>
+
+
+<div class="section portfolio portfolio-green">
+    <a name="create"></a>
+    <div class="works">
+        <ul class="list meta">
+
+            <li>CREATE</li>
+            <li>Illustration</li>
+
+        </ul>
+        <ul class="list technologies">
+            <li>Illustrator</li>
+            <li>Photoshop</li>
+            <li>Sketch</li>
+            <li>Mixed Media</li>
+        </ul>
+        <p>Make your website unique and give it that special character with custom illustrations: we can create just
+            what you have in mind. A custom illustration can make all the difference for a brand in a world that is so homogenized.
+            Create a compelling visual for an idea, give your brand it's own style.  </p>
+        <ul class="lineup">
+
+            <li>
+                <div class="illustration">
+                    <a href="#img1"><img src="img/CREATE/illustration/DigitalMothsml.png" class="webprojectcreate" ></a>
+                    <a href="#_" class="lightbox" id="img1">
+                        <img src="img/CREATE/illustration/DigitalMoth.png">
+                    </a>
+                    <p class="caption">To create the sense of nature in conjunction with music and technology
+                        this moth has speakers in its wings. It was created form a hand drawn sketch and developed in photoshop. </p>
+                </div>
+            </li>
+            <li>
+                <div class="illustration">
+                   <a href="#img3""><img src="img/CREATE/illustration/capoeirasml.png" class="webprojectcreate"></a>
+                    <a href="#_" class="lightbox" id="img3">
+                    <img src="img/CREATE/illustration/capoeira.png">
+                    </a>
+                    <p class="caption">Capoeira is a martial art that envolves very flowing and athletic movements.
+                        This illustration was created form sketches made in the gym to capture the spirit of the art. </p>
+                </div>
+            </li>
+            <li>
+            <div class="illustration">
+                <a href="#img2"> <img src="img/CREATE/illustration/ourhawaiisml.png" class="webprojectcreate"></a>
+
+                <a href="#_" class="lightbox" id="img2">
+                    <img src="img/CREATE/illustration/ourhawaii.png">
+                </a>
+
+                <p class="caption">This illustration captures the memories of childrens vacation. </p>
+            </div>
+        </li>
+        </ul>
+    </div>
+</div>
+
+<div class="section portfolio portfolio-lightblue">
+
+
+    <div class="works">
+        <ul class="list meta">
+            <li>CREATE</li>
+            <li>Logo</li>
+        </ul>
+        <ul class="list technologies">
+
+            <li>Illustrator</li>
+            <li>Photoshop</li>
+            <li>Sketch</li>
+            <li>CSS animations</li>
+            <li>Ink</li>
+            <li>Mixed Media</li>
+        </ul>
+        <p>A logo’s design is for immediate recognition, inspiring trust, admiration, and loyalty. The logo is one
+            aspect of a brand, and its shapes, colours, fonts, and images make you stand out from others in a similar
+            market. A good logo is describable, memorable, effective without colour and scalable. It also will work
+            for your target audience. A logo is the symbol of your business and as such will represent you in the eyes
+            of your target audience. A good logo will convince people to choose you over the competiton.</p>
+        <ul class="lineup">
+            <li>
+                <div class="logo">
+
+                   <a href="#img4"> <img src="img/CREATE/logos/ATWLogosml.png"  class="webprojectcreate"></a>
+
+                    <a href="#_" class="lightbox" id="img4">
+                        <img src="img/CREATE/logos/ATWLogo.png">
+                    </a>
+                    <p class="caption">The idea for this Veterinarian’s logo was to represent serene and alert animals that were healthy. We used
+                        ink brush and a minimalist line to keep a light feel that was elegant. The emphasis is on the expressiveness
+                        of the tails.</p>
+                </div>
+            </li>
+            <li>
+                <div class="logo">
+
+
+                    <a href="#img5"><img src="img/CREATE/logos/FlyingDogsml.png"  class="webprojectcreate"></a>
+
+                    <a href="#_" class="lightbox" id="img5">
+                        <img src="img/CREATE/logos/FlyingDog.png">
+                    </a>
+                    <p class="caption">This image was inspired by a dog running thru high grass. The joy and freedom of that moment translates
+                        into a dynamic logo.</p>
+                </div>
+            </li>
+            <li>
+                <div class="logo">
+
+                   <a href="#img6" ><img src="img/CREATE/logos/TRlogosml.png"  class="webprojectcreate"></a>
+                    <a href="#_" class="lightbox" id="img6">
+                        <img src="img/CREATE/logos/TRlogo.png">
+                    </a>
+
+                    <p class="caption">For a realtor it is important to create a sense of stability and trust while keeping a personal feel.
+                        This logo was created to be elegant and simple. It uses handwritten letter to portray the personal touch.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="section portfolio portfolio-darkblue">
+    <div class="works">
+        <ul class="list meta">
+            <li>CREATE</li>
+            <li>Photoshop</li>
+            <li>PhotoMontage</li>
+            <li>Retouching</li>
+            <li>Color Correction</li>
+        </ul>
+        <ul class="list technologies">
+            <li>Photoshop</li>
+
+        </ul>
+        <p>When the camera can’t capture the moment there is photoshop: We can produce the best possible images for yournpm
+            website, correct an image’s color and exposure, remove unsightly distractions, and
+            even creater realistic composites from multiple shots. We can alter the feel of a series of images to give the site it's own style.</p>
+        <ul class="lineup">
+            <li>
+                <div class=" photoshop">
+
+                    <a href="#img7"><img src="img/CREATE/photoshop/Petal_aftersml.jpg"  class="webprojectcreate"></a>
+
+                    <a href="#_" class="lightbox" id="img7">
+                        <img src="img/CREATE/photoshop/Petal_after.jpg" onmouseover=src="img/CREATE/photoshop/petal.jpg" onMouseOut=src="img/CREATE/photoshop/Petal_after.jpg">
+                    </a>
+
+                    <p class="caption"> In this case, we were trying to emphasize the brightness of a child sharing her discovery.</p>
+                </div>
+            </li>
+            <li>
+                <div class=" photoshop">
+                    <a href="#img8"><img src="img/CREATE/photoshop/VeggieTrucksml.jpg"  class="webprojectcreate"></a>
+                    <a href="#_" class="lightbox" id="img8">
+                        <img src="img/CREATE/photoshop/VeggieTruck.jpg">
+                    </a>
+                    <p class="caption">The challenge for this photomontage was to show the opulence of a farmer’s crop
+                        while underlining the traditional family style of farming and the connection to the land.</p>
+                </div>
+            </li>
+            <li>
+                <div class=" bigphotoshop">
+                   <a href="#img9"> <img src="img/CREATE/photoshop/dgiinitessml.jpg"  class="webprojectcreate"></a>
+                    <a href="#_" class="lightbox" id="img9">
+                        <img src="img/CREATE/photoshop/dgiinites.jpg">
+                    </a>
+
+                    <p class="caption">The band Dgiin needed a promotional photo that captured their presence on stage. The difficulty was in
+                        The band Dgiin needed a promotional photo that captured their presence on stage. The difficulty was in
+                        capturing each performer in one moment. This photo was built from a series of pictures to put each person
+                        in their best light while showing the band as united.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="section about-us">
+    <h4 class="hero-header ">We are</h4>
+    <div class="container">
+        <div class="row">
+            <div class="twelve column">
+                <!--<h3 class="section-heading">About Us</h3>-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="one-half column">
+
+
+                <div class="portrait">
+
+                    <img src="img/paulSmall.png" width="35%" height="35%">
+                    <h5 class="name">Paul</h5>
+                </div>
+                <p class="about-us paul">Is an experiences software engineer who has worked for a variety of clients both big an small. Expert experience with Javascript and the ever-changing landscape of scripting languages with both backend and front end skills. </p>
+
+            </div>
+            <div class="one-half column">
+
+                <div class="portrait">
+                    <img src="img/ondineSmall.png" width="35%" height="35%">
+                    <h5 class="name">Ondine</h5>
+                </div>
+                <p class="about-us ondine">A designer by trade and budding programmer Ondine has worked for newspaper and magazines and knows the realities of a tight deadline. She's both a project manager and creative which makes for a very productive work environment. </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="contact">
+    <a name="contact"></a>
+
+    <h4 class="hero-header ">First Contact</h4>
+    <!--
+    posting
+    https://gridspree.io/admin?key=7xzDV2v3ysv7LvSVC8CMsf
+    -->
+    <div class="container monolith">
+        <div class="row">
+            <div class="one-half column">
+                <!-- TODO put the svg in here and animate -->
+            </div>
+            <div class="one-half column">
+
+                    <div class="row">
+                        <div class="one-third column">
+                            <label>Name: </label>
+                        </div>
+                        <div class="two-thirds column">
+                            <input type="text" id="contact-name" name="name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="one-third column">
+                            <label>Email: </label>
+                        </div>
+                        <div class="two-thirds column">
+                            <input type="email" id="contact-email" email="email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="one-third column">
+                            <label>Message: </label>
+                        </div>
+                        <div class="two-thirds column">
+                            <textarea name="message" id="contact-message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button id="submit-contact">Contact</button>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="tail">
+        <svg version="1.1" id="tail" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="200px" height="125px"
+             viewBox="0 0 200 125">
+            <defs>
+                <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color:rgb(111,152,181);stop-opacity:.8"/>
+                    <stop offset="100%" style="stop-color:rgb(57,83,100);stop-opacity:1"/>
+                </linearGradient>
+            </defs>
+            <polygon points="0,0 100,0 84,125" fill="url(#grad2)"/>
+        </svg>
+    </div>
+    <div class="push"></div>
+</div>
+
+<div >
+    <img src="img/hadfield.png" class="floater">
+
+</div>
+
+
+<div class="footer">
+    <div class="e-arth"></div>
+</div>
+
+
+
+<script src="js/sticky/jquery.sticky.js"></script>
+<script src="js/our-work.js"></script>
+<script>
+
+    $('.top').sticky();
+
+    $(window).load(function(){
+        $(".top").sticky({ topSpacing: 0, className:"hey" });
+    });
+
+    $("#submit-contact").click(function() {
+        var data = {
+            "name" : $("#contact-name").val(),
+            "email" : $("#contact-email").val(),
+            "message" : $("#contact-message").val()
+        };
+
+        console.log("data: ", data);
+        $.post("https://gridspree.io/ss/wCeGetexrRFtyLKnHA4pzk",data).done(function(data) {
+            console.log("data: ", data);
+        })
+    });
+
+
+
+
+</script>
+</body>
+</html>
