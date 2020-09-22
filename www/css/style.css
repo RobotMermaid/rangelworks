@@ -245,9 +245,10 @@ svg {
 }
 
 #smallWing {
-  transform-origin: 100% 100%;
-  -webkit-transform-origin: 100% 100%;
-  -ms-transform-origin: 100% 100%;
+    background-color: #00FF00;
+  transform-origin: 10% 50%;
+  -webkit-transform-origin: 10% 50%;
+  -ms-transform-origin: 10% 50%;
   animation: flap1 3s ease-in infinite 2s forwards;
   -webkit-animation: flap1 3s ease-in infinite 2s forwards;
   -moz-animation: flap1 3s ease-in infinite 2s forwards;
@@ -256,9 +257,9 @@ svg {
 }
 
 #bigWing {
-  transform-origin: 100% 50%;
-  -webkit-transform-origin: 100% 50%;
-  -ms-transform-origin: 100% 50%;
+  transform-origin: 10% 50%;
+  -webkit-transform-origin: 10% 50%;
+  -ms-transform-origin: 10% 50%;
   animation: flap2 3s ease-out infinite forwards 2s ;
   -webkit-animation: flap2 3s ease-out infinite forwards 2s;
   -moz-animation: flap2 3s ease-out infinite forwards 2s;
@@ -413,7 +414,7 @@ svg {
         left: 950px;
         width: 40px;
         height: 40px;
-        -webkit-box-shadow: 0 0 2x #00FF00;
+        box-shadow: 0 0 2x #00FF00;
         margin-left: -20px;
         margin-top: -20px;
     }
@@ -421,7 +422,7 @@ svg {
         left: 950px;
         width: 40px;
         height: 40px;
-        -webkit-box-shadow: 0 0 2x #00FF00;
+        box-shadow: 0 0 2x #00FF00;
         margin-left: -20px;
         margin-top: -20px;
     }
@@ -451,7 +452,7 @@ svg {
         left: 950px;
         width: 40px;
         height: 40px;
-        -moz-box-shadow: : 0 0 2x #00FF00;
+        -moz-box-shadow: 0 0 2x #00FF00;
         margin-left: -20px;
         margin-top: -20px;
     }
@@ -735,7 +736,6 @@ h2 {
 .is-sticky .top {
     animation: slide 1s ease-out forwards;
     -webkit-animation: slide 1s ease-out forwards;
-    background-color:  background-color: rgba(0,0,51,.8);
     padding-left: 1.8rem;
 }
 
