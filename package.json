@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ws -d www 8888"
+    "start": "ws -d docs 8888"
   },
   "repository": {
     "type": "git",

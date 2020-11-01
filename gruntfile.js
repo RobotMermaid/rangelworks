@@ -8,7 +8,7 @@ module.exports = function(grunt) {
                     port: 21,
                     authKey: 'rangelworks'
                 },
-                src: 'www/',
+                src: 'docs/',
                 dest: 'stage.rangelworks.com/',
                 exclusions: []
             },
@@ -18,7 +18,7 @@ module.exports = function(grunt) {
                     port: 21,
                     authKey: 'rangelworks'
                 },
-                src: 'www/',
+                src: 'docs/',
                 dest: 'rangelworks.com/',
                 exclusions: []
             }
