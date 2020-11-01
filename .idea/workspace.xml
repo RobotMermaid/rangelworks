@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="143a3cd8-a488-455f-b9eb-ec0910803d2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/CREATE/illustration/capoeirasml.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/docs/img/CREATE/illustration/capoeirasml.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +47,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/img/CREATE/illustration" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/rangelworks/www/index.html" useBuiltInWebServerPort="true">
@@ -57,6 +80,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="21" y="-840" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600788744703">
       <screen x="-170" y="-1057" width="1920" height="1057" />
@@ -78,5 +104,9 @@
       <screen x="-170" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1072" height="264" key="GridCell.Tab.0.right/-170.-1057.1920.1057/0.23.1680.1027@-170.-1057.1920.1057" timestamp="1600790033595" />
+    <state x="331" y="-813" width="588" height="490" key="find.popup" timestamp="1604265776970">
+      <screen x="-240" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="331" y="-813" width="588" height="490" key="find.popup/1680.-1118.1920.1057/-240.-1057.1920.1057/0.23.1680.1027@-240.-1057.1920.1057" timestamp="1604265776970" />
   </component>
 </project>
