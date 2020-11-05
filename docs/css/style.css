@@ -87,6 +87,7 @@ svg {
     position: relative;
     top: 50%;
     width: 90%;
+    max-width: 90%;
     right: .5em;
     z-index: 2;
 
