@@ -108,6 +108,10 @@ svg {
   margin-left: 2rem;
 }
 
+.raygun:hover {
+  transform: rotate(-0.5deg);
+}
+
 .plasma{
     background: #FFF;
     position: relative;
