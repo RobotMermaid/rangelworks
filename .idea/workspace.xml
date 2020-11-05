@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="143a3cd8-a488-455f-b9eb-ec0910803d2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="143a3cd8-a488-455f-b9eb-ec0910803d2c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +73,7 @@
       <workItem from="1600792121327" duration="414000" />
       <workItem from="1600969232285" duration="19000" />
       <workItem from="1604506688642" duration="25000" />
-      <workItem from="1604515082390" duration="1527000" />
+      <workItem from="1604515082390" duration="1917000" />
     </task>
     <servers />
   </component>
@@ -115,10 +113,10 @@
       <screen x="-170" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1072" height="264" key="GridCell.Tab.0.right/-170.-1057.1920.1057/0.23.1680.1027@-170.-1057.1920.1057" timestamp="1600790033595" />
-    <state x="331" y="-813" width="588" height="490" key="find.popup" timestamp="1604518149878">
+    <state x="331" y="-813" width="588" height="490" key="find.popup" timestamp="1604595440544">
       <screen x="-240" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="331" y="-813" width="588" height="490" key="find.popup/-240.-1057.1920.1057/1680.-1118.1920.1057/0.23.1680.1027@-240.-1057.1920.1057" timestamp="1604518149878" />
+    <state x="331" y="-813" width="588" height="490" key="find.popup/-240.-1057.1920.1057/1680.-1118.1920.1057/0.23.1680.1027@-240.-1057.1920.1057" timestamp="1604595440544" />
     <state x="331" y="-813" width="588" height="490" key="find.popup/1680.-1118.1920.1057/-240.-1057.1920.1057/0.23.1680.1027@-240.-1057.1920.1057" timestamp="1604265776970" />
   </component>
 </project>
